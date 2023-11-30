@@ -84,6 +84,7 @@ public class PropertiesFileOperation {
 
                 properties.store(fileWriter, "");
             }
+            fileWriter.close();
 
             System.out.println("successfully saved to properties file");
 

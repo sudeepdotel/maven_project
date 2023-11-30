@@ -27,6 +27,7 @@ public class ReadWritePropertiesFile {
             properties.setProperty("url", "www.me.com");
             properties.setProperty("database", "mysql");
 
+
             // now storing  above properties to the file
             properties.store(fileWriter, "");
         }
